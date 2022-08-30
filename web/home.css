@@ -1,0 +1,133 @@
+body{
+
+    margin: 0%;
+    
+    height: 100%;
+ 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.head{
+    border-radius: 0px;
+     padding:10px;
+    color: aliceblue;
+    opacity: 1;
+    background-color: rgb(42, 38, 52);
+    text-align: center;
+    margin: 0px;
+    height: 800px;
+    background-image: url(img/test.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+#logo{
+    font-size :40px;
+    position: absolute;
+    text-align: center;
+    left: 37%;
+    top: 52%;
+}
+.toolbar{ top: 0px;
+    
+    position: sticky;
+   width: 100%;
+    
+}
+.toolbar_box{ 
+  
+height: 40px;
+overflow: hidden;
+background-color: black;
+opacity: 0.2;
+}
+
+nav a{
+
+    display: block  ;    
+    color: rgb(255, 252, 252);
+    padding: 10px 20px;
+    text-decoration: none;
+    float: left;
+    
+}
+nav a:hover{
+    color: rgb(12, 12, 15);
+    background-color: aliceblue;
+    
+}
+
+/*
+#pic1{
+    background-color: rgb(240, 234, 225);
+}
+#pic2{ 
+    background-color: rgb(240, 234, 225);
+}
+#pic3{
+    background-color: rgb(227, 238, 235);
+}*/
+.pbox{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    width: 120px;
+    height: 150px;
+    padding: 10px;
+    margin: 0px;
+    opacity: 1;
+
+      
+} 
+.pbox:hover{
+   /* box-shadow: 10px 10px 5px rgb(72, 74, 74);*/   
+}
+.idbox{ 
+    margin: 0px;
+    width: 400px;
+    height: auto;
+    border:solid black 0px;
+     background-color: rgb(253, 246, 246);
+    border-radius: 0px;
+    opacity: 1;
+}
+.idbox:hover{
+    box-shadow: 5px 5px 2px rgb(72, 74, 74);
+    background-color: rgb(48, 48, 50);
+    color: white;
+    border-radius: 0px;
+    opacity: 0.6;   
+} 
+
+.infobox{ 
+   
+    margin: 0px;
+    padding: 30px;
+}
+
+.gred{
+    padding: 20px;
+    display: flex;
+    bottom: 0px;
+flex-direction: row;
+flex-wrap: wrap ;
+justify-content: center;
+
+
+align-content:center;
+align-items: center;  
+align-items: flex-end;
+}
+.end{background-color: rgb(49, 47, 46);
+     bottom: 0px;
+     height: 40px;
+    color: white;
+    text-align: center;
+    opacity: 0.5;
+    
+}
