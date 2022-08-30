@@ -1,0 +1,59 @@
+body{
+    margin: 2%;
+    background-color: rgb(208, 192, 192);
+}
+#head{
+    border-radius: 10px;
+     padding: 30px;
+    color: aliceblue;
+    background-color: rgb(42, 38, 52);
+    text-align: center;
+    margin: 0px;
+    height: 50px;
+}
+.pbox{
+    float: left;
+    border-radius: 10px;
+    width: 300px;
+    padding: 0px;
+    margin: 20px;
+
+      
+}
+.pbox:hover{
+    box-shadow: 10px 10px 5px rgb(72, 74, 74);
+}
+.idbox{
+    margin: 10px;
+     background-color: rgb(218, 194, 156);
+    border-radius: 0px;
+}
+.idbox:hover{
+    box-shadow: 10px 10px 5px rgb(72, 74, 74);
+}
+
+#pic1{
+    background-color: rgb(218, 194, 156);
+}
+#pic2{ 
+    float: right;
+    background-color: rgb(241, 78, 66);
+}
+#pic3{
+    background-color: rgb(98, 231, 197);
+}
+
+.infobox{ 
+    margin: 20px;
+    padding: 20px;
+}
+
+.gred{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(100px,fr));
+    
+    grid-gap: 0px;
+    grid-auto-rows: minmax(100px,auto) ;
+    grid-auto-columns: minmax(50px,auto) ;
+    row-gap: 5px;
+}
